@@ -3,48 +3,50 @@
 }
 
 .grupo{
-    width: 10rem;
-    height: 9rem;
-    margin-top: 3rem;
-    background-color: rgb(97, 206, 112);
+    width: 15rem;
+    height: 2rem;
+    background-color: rgb(82, 185, 96);
 }
 
 .materia{
-    width: 15rem;
-    height: 9rem;
-    margin-top: 3rem;
-    background-color:rgb(97, 206, 112);
-}
-
-.m1{
-    height: 3rem;
-}
-
-.unidad{
-    width: 36rem;
-    height: 3rem;
-    background-color: rgb(97, 206, 112);
-    
-}
-
-.calificacion{
-    width: 36rem;
-    height: 10rem;
-    
+    width: 33rem;
+    height: 2rem;
+    background-color:rgb(82, 185, 96);
 }
 
 .uni{
     width: 3rem;
-    height: 3rem;
+    height: 2rem;
+    background-color: rgb(162, 235, 172);
 }
-.gr{
-    width: 20rem;
-    height: 3rem;
+.cali{
+    width: 3rem;
+    height: 2rem;
 }
 
-@media (max-width: 900px) {
+@media only screen and (min-width: 1000px){
+    .materia1{
+        flex-direction: row !important;
+    }
+    .materia2{
+        flex-direction: row !important;
+    }
+    .materia3{
+        flex-direction: row !important;
+    }
+    .magr{
+        margin-top: 2rem;
+    }
+    .unidades{
+        flex-wrap: nowrap !important;
+    }
     .grupo{
+        width: 10rem;
+    }
+    .materia{
+        width: 18rem;
+    }
+    .un{
         display: none;
     }
-   
 }
