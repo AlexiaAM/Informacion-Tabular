@@ -1,0 +1,50 @@
+.container{
+    margin: 2rem;
+}
+
+.grupo{
+    width: 10rem;
+    height: 9rem;
+    margin-top: 3rem;
+    background-color: rgb(97, 206, 112);
+}
+
+.materia{
+    width: 15rem;
+    height: 9rem;
+    margin-top: 3rem;
+    background-color:rgb(97, 206, 112);
+}
+
+.m1{
+    height: 3rem;
+}
+
+.unidad{
+    width: 36rem;
+    height: 3rem;
+    background-color: rgb(97, 206, 112);
+    
+}
+
+.calificacion{
+    width: 36rem;
+    height: 10rem;
+    
+}
+
+.uni{
+    width: 3rem;
+    height: 3rem;
+}
+.gr{
+    width: 20rem;
+    height: 3rem;
+}
+
+@media (max-width: 900px) {
+    .grupo{
+        display: none;
+    }
+   
+}
